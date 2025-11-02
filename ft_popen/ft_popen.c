@@ -27,7 +27,7 @@ int ft_popen(const char *file, char *const argv[], char type)
 
 
 /* Ceci est la version que j'ai passe en examen et qui est donc valide.
-Pour la version au dessus elle doit aussi etre bonne mais j'avais oublie
+Pour la version au dessus elle est aussi bonne mais j'avais oublie
  les parentheses pour assignation et la comparaison pour le fork.
 J'ai choisi de close les 2 fd apres dup2 pour simplifier l'ecriture. */
 int ft_popen(const char *file, char *const argv[], char type)
